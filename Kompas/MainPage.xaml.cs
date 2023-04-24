@@ -82,7 +82,7 @@ public partial class MainPage : ContentPage
 
     private void Battery_Clicked(object sender, EventArgs e)
     {
-        DisplayAlert("Baterie", (Battery.Default.ChargeLevel * 100).ToString(), "OK");
+        DisplayAlert("Baterie", (Battery.Default.ChargeLevel * 100).ToString() +  "%", "OK");
     }
 }
 
